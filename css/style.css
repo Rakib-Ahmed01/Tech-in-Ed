@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600;1,700&display=swap");
 
-/* html {
-  font-size: 62.5%;
-} */
-
 body {
   font-family: "Poppins", sans-serif;
 }
-
-/* header .navbar-brand {
-  font-weight: 600;
-} */
 
 header .container-fluid {
   padding: 0;
@@ -27,9 +19,41 @@ header .navbar-collapse {
 
 .banner .container .carousel img {
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
-/* .banner .carousel-caption {
-  top: 48%;
-} */
+.container {
+  padding: 0;
+}
+
+.courses img {
+  object-fit: cover;
+  object-position: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 576px) {
+  .courses .image img {
+    height: 232px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .courses .course {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .courses .image {
+    flex-basis: 40%;
+  }
+  .courses .text {
+    flex-basis: 60%;
+  }
+  .courses .course {
+    flex-direction: row;
+  }
+}

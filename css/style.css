@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600;1,700&display=swap");
+
+/* html {
+  font-size: 62.5%;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header .navbar-brand {
+  font-weight: 600;
+} */
+
+header .container-fluid {
+  padding: 0;
+}
+
+header .navbar-collapse {
+  flex-grow: 0;
+}
+
+.banner .container .carousel {
+  background: black;
+  overflow: hidden;
+}
+
+.banner .container .carousel img {
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+/* .banner .carousel-caption {
+  top: 48%;
+} */
